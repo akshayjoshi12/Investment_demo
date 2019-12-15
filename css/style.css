@@ -1,0 +1,122 @@
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+    background-color: #FFF;
+    margin: 40px;
+    font-family: Montserrat !important;
+    color: #4F5155;
+    word-wrap: break-word;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #003399;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+.signupmain h1 {
+    color: #47525D !important;
+    font-family: "Segoe UI" !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    text-align: center;
+    font-weight: normal;
+}
+
+code {
+    font-family: Consolas, Monaco, Courier New, Courier, monospace;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #D0D0D0;
+    color: #002166;
+    display: block;
+    margin: 14px 0 14px 0;
+    padding: 12px 10px 12px 10px;
+}
+
+#body {
+    margin: 0 15px 0 15px;
+}
+
+p.footer {
+    text-align: right;
+    font-size: 16px;
+    border-top: 1px solid #D0D0D0;
+    line-height: 32px;
+    padding: 0 10px 0 10px;
+    margin: 20px 0 0 0;
+}
+
+#container {
+    margin: 64px;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 8px #D0D0D0;
+}
+
+.signupmain h2 {
+    color: #007AE8 !important;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+
+form .formdiv{
+    border: 1px solid #D8D8D8;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    height:56px;
+    /*width: 360px;*/
+}
+form .formdiv input[type=checkbox],form .formdiv input[type=text], form .formdiv input[type=password], form .formdiv select{
+    width: 96%;
+}
+.textcenter{
+    text-align: center;
+}
+.textright{
+    text-align: right;
+}
+.form-group input{
+    border:none !important;
+    margin:0px 0px 0px 10px;
+    font-size: 14px;
+    /*color: #B5B5B5;*/
+    font-family: "Segoe UI";
+}
+.form-group label{
+    text-transform: uppercase;
+    margin:0px 0px 0px 10px;
+}
+.height16{
+    height: 16px;
+}
+.submit_signup {
+    height: 36px;
+    width: 160px;
+    border-radius: 2px;
+    background-color: #6D5EAC;
+    cursor: pointer;
+    color: #fff;
+}
+.required {
+    height: 8px;
+    width: 8px;
+    color: #EB2C54;
+    font-family: FontAwesome;
+    font-size: 16px;
+    line-height: 8px;
+}
+label.error{
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.errorMsg{
+    color:#007AE8;
+}
