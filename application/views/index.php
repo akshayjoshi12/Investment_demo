@@ -57,6 +57,12 @@ $(document).ready(function(){
         format: 'dd-M-yyyy',
         autoclose: true
     });
+    $('input[name="txtAmount"]').keyup(function(e){
+        if (/\D/g.test(this.value))
+        {
+            this.value = this.value.replace(/\D/g, '');
+        }
+    });
 
     $("#chkInvestmentForm").validate({
         errorElement:'div',
