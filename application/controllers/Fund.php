@@ -32,7 +32,7 @@ class Fund extends CI_Controller {
     {
         $dateOfInvestment = $this->input->post('txtDate');
         $amountOfInvestment = $this->input->post('txtAmount');
-        $today = '12-Dec-2019';
+        $today = TODAY_DATE;
         $objFund = $this->fundModel->getNavByDate($dateOfInvestment);
         $objFundToday = $this->fundModel->getNavByDate($today);
         $prevInvestment = 0;

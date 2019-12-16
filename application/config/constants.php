@@ -84,14 +84,4 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-/* Respond type - starts */
-define('STAR_RATING', 'Star Rating');
-define('MULTIPLE_STAR_RATING', 'Multiple Star Rating');
-define('NPS_RATING', 'NPS Ratings(1-10)');
-define('MCQ_ONE', 'Multiple Choice (one answer)');
-define('MCQ_MORE', 'Multiple Choice (Allow more than one answer)');
-define('COMMENT', 'Comment Box');
-define('YN', 'Yes or No');
-define('FROM_EMAIL', 'admin@2stallions.site');
-define('ADMIN_EMAIL', 'akshay@2stallions.com');
-/* Respond type - ends */
+define('TODAY_DATE', '12-Dec-2019');
